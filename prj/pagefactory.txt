@@ -1,0 +1,63 @@
+package pagefactory;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+public class page_element
+{
+	@FindBy(how=How.XPATH, using="//input[@id='txtuId']")
+    public static WebElement a_username;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='txtPword']")
+    public static WebElement a_password;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='login']")
+    public static WebElement a_login;
+    
+    @FindBy(how=How.XPATH, using="//*[@href='admin_banker_master.aspx']")
+    public static WebElement branches;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='BtnNewBR']")
+    public static WebElement b_newbranch;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='txtbName']")
+    public static WebElement b_branchname;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='txtAdd1']")
+    public static WebElement  b_address1;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='Txtadd2']")
+    public static WebElement b_address2;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='txtadd3']")
+    public static WebElement  b_address3;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='txtArea']")
+    public static WebElement b_area;
+    
+    @FindBy(how=How.XPATH, using="//input[@id='txtZip']")
+    public static WebElement b_zipcode;
+    
+    @FindBy(how=How.XPATH, using="//select[@id='lst_counrtyU']")
+    public static WebElement b_country;
+    
+    @FindBy(how=How.XPATH, using="//select[@id='lst_stateI']")
+    public static WebElement b_state;
+    
+    @FindBy(how=How.XPATH, using="//select[@id='lst_cityI']")
+    public static WebElement b_city; 
+    
+    @FindBy(how=How.XPATH, using="//input[@id='btn_insert']")
+    public static WebElement b_submit; 
+    
+    @FindBy(how=How.XPATH, using="//input[@id='Btn_Reset']")
+    public static WebElement b_reset; 
+    
+    @FindBy(how=How.XPATH, using="//input[@id='Btn_cancel']")
+    public static WebElement  b_cancel; 
+    
+    
+
+	
+}
